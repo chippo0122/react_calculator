@@ -1,0 +1,30 @@
+$break-point: 420px;
+$red: #c23616;
+$white: #f5f6fa;
+$gray: #718093;
+
+.panel {
+    width: $break-point;
+    background-color: rgba(32, 32, 32, 0.8);
+    box-shadow: 0px 0px 3px $white, 0px 0px 15px #f5f6fa6b, 0px 0px 45px #f5f6fa93;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+
+
+
+@media (max-width: $break-point) {
+   .panel {
+        width: 100%;
+   }
+}

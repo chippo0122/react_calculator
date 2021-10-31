@@ -1,0 +1,32 @@
+.background {
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #222;
+}
+
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: -5;
+    filter: blur(1px);
+    box-shadow: 3px 3px 10px #222;
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 450px) {
+    .box {
+        width: 50px;
+        height: 50px;
+    }
+}

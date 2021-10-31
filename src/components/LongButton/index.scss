@@ -1,0 +1,25 @@
+.long-button {
+    width: 185px;
+    height: 80px;
+    border-radius: 40px;
+    border: 0;
+
+    &:hover {
+        transform: scale(1.075);
+        transition: 0.1s;
+    }
+}
+
+@media (max-width: 450px) {
+    .long-button {
+        width: 150px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 340px) {
+    .long-button {
+        width: 135px;
+        height: 60px;
+    }
+}

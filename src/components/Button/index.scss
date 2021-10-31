@@ -1,0 +1,25 @@
+.button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 0;
+
+    &:hover {
+        transform: scale(1.075);
+        transition: 0.1s;
+    }
+}
+
+@media (max-width: 450px) {
+    .button {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 340px) {
+    .button {
+        width: 60px;
+        height: 60px;
+    }
+}
